@@ -1,0 +1,104 @@
+body {
+    font-family: "Permanent Marker", cursive;
+    margin: 0;
+}
+
+/*header stuff here*/
+header {
+    background-color: aliceblue;
+    padding: 1rem 10px
+} 
+header span {
+    color: #b40412;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/*navigation stuff here*/
+nav {
+    background-color: #024873;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    margin: 0 10px;
+    padding: 0.83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+nav li.active a {
+    color: aliceblue;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+/*main stuff here*/
+main {
+    padding: 1rem 10px;
+    margin: 20px;
+}
+
+main h1 {
+    color: #b40412;
+    margin:15px 10px 10px 10px;
+    text-align: center;
+
+}
+main h2 {
+    color: #024873;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+main p {
+    margin: 0;
+    color: #333;
+}
+main h3 {
+    color: #b40412;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+main ol {
+    padding: 0.5rem 30px;
+    background-color: #efefef;
+    border: 8px solid #b40412;
+}
+main h4 {
+    color: #024873;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+address{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+/*footer stuff here*/
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1rem 0;
+    border: 10px solid #b40412;
+}
+footer p{
+    color:#024873;
+    letter-spacing: 4px
+}
+
+
+
+
